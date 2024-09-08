@@ -41,14 +41,6 @@ pip install pandas matplotlib
 - An additional plot is generated to visualize all data points.
 
 
-## Running the Script
-
-To run the script, execute the following command in your terminal:
-
-```bash
-python tv_advertising_analysis.py
-```
-
 ## Results
 
 - The script generates scatter plots showing how TV advertising budgets relate to sales figures.

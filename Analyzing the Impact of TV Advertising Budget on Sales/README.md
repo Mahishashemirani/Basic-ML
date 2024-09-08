@@ -16,8 +16,8 @@ pip install pandas matplotlib
 ```
 
 ## data
-- **tv**: Budget allocated to TV advertising
-- sales: The sales generated
+- **TV**: Budget allocated to TV advertising
+- **Sales**: The sales generated
 
   ## Code Overview
 

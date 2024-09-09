@@ -64,3 +64,6 @@ pip install numpy pandas matplotlib scikit-learn
 - Two plots are generated:
   - A plot of training and validation errors as a function of polynomial degree.
   - A plot of training and cross-validation errors as a function of polynomial degree.
+
+    ![plot](images/plot.png)
+

@@ -55,6 +55,7 @@ The script uses a dataset named `bacteria_train.csv`.
 6. **Comparison of Ridge and Lasso**:
    - Compares Ridge and Lasso regression by plotting the coefficients for both methods on the same plot.
    - Uses a logarithmic scale to highlight differences in how Ridge and Lasso shrink coefficients.
+     
      ![Logscale](images/Logscale.png)
 
   ## Conclusion

@@ -18,18 +18,18 @@ This repository covers a range of topics including:
 To navigate the different analyses and examples, you can find the relevant files and directories as follows:
 
 - **Linear Models:**
-  - [Analyzing the Impact of TV Advertising Budget on Sales](./Analyzing the Impact of TV Advertising Budget on Sales) 
-  - [Evaluating Polynomial Degrees with MSE](./linear_models/evaluating_polynomial_degrees)
+  - [Analyzing the Impact of TV Advertising Budget on Sales](./Analyzing%20the%20Impact%20of%20TV%20Advertising%20Budget%20on%20Sales)
+  - [Evaluating Polynomial Degrees with MSE](./Evaluating%20Polynomial%20Degrees%20with%20MSE)
 
 - **Classification Models (KNN and Logistic Regression):**
-  - [Heart Disease Analysis using Classification Models](./classification/heart_disease_analysis)
-  - [Polynomial Logistic Regression for Land Classification](./classification/polynomial_logistic_regression)
+  - [Heart Disease Analysis using Classification Models](./Heart%20Disease%20Analysis%20using%20Classification%20Models)
+  - [Polynomial Logistic Regression for Land Classification](./Polynomial%20Logistic%20Regression%20for%20Land%20Classification)
 
 - **Cross Validation and Regularization:**
-  - [Evaluating Ridge Regression](./regularization/evaluating_ridge_regression)
-  - [Evaluating Polynomial Degrees with MSE](./regularization/evaluating_polynomial_degrees)
+  - [Evaluating Ridge Regression](./Evaluating%20Ridge%20Regression)
+  - [Evaluating Polynomial Degrees with MSE](./Evaluating%20Polynomial%20Degrees%20with%20MSE)
 
 - **Comparison of Regularization Methods:**
-  - [Ridge vs. Lasso Alpha Effects](./regularization/ridge_vs_lasso_alpha_effects)
-
+  - [Ridge vs. Lasso Alpha Effects](./Ridge%20vs.%20Lasso%20Alpha%20Effects)
+  
 Feel free to explore each directory to see how different machine learning techniques are applied and evaluated.

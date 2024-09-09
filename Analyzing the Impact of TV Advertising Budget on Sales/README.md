@@ -30,19 +30,12 @@ pip install pandas matplotlib seaborn scikit-learn
 - The dataset is loaded into a pandas DataFrame.
 - Basic information about the dataset is displayed using `df.info()`.
 
-### 2. Data Preview
 
-- A new DataFrame `df_new` is created by selecting the first 7 rows of the dataset.
-- The contents of this new DataFrame are printed to verify the selection.
+### 2. Scatter Plot
 
-### 3. Scatter Plot
-
-- A scatter plot is created to visualize the relationship between TV and Sales.
+- A scatter plot is created to visualize the relationship between predictors and Sales.
 - Axis labels and a title are added for clarity.
 
-### 4. Full Dataset Plotting
-
-- An additional plot is generated to visualize all data points.
 
 
 ## Results

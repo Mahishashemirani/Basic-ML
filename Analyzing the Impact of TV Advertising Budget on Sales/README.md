@@ -36,7 +36,24 @@ pip install pandas matplotlib seaborn scikit-learn
 - A scatter plot is created to visualize the relationship between predictors and Sales.
 - Axis labels and a title are added for clarity.
 
+### 3. Regression Analysis
 
+We use **Linear Regression**, **Ridge Regression**, and **Lasso Regression** to model the relationship between the advertising budgets (TV, Radio, Newspaper) and sales.
+
+#### - Linear Regression
+We train a simple Linear Regression model to predict `Sales` from `TV`, `Radio`, and `Newspaper` budgets and evaluate its performance using metrics such as **Mean Squared Error (MSE)** and **R-squared**.
+
+#### - Ridge Regression
+Ridge Regression is used to introduce regularization to the model, preventing overfitting by penalizing large coefficients. We perform cross-validation to find the optimal regularization parameter (`alpha`).
+
+#### - Lasso Regression
+Lasso Regression is another regularization technique that not only prevents overfitting but also performs **feature selection** by forcing some coefficients to be exactly zero. Cross-validation is used to find the optimal `alpha`.
+```python
+# Example code for training Ridge regression
+from sklearn.linear_model import Ridge
+ridge_model = Ridge(alpha=best_ridge_alpha)
+ridge_model.fit(X_train_scaled, y_train)
+```
 
 ## Results
 

@@ -55,16 +55,23 @@ The script uses a dataset named `polynomial50.csv`.
    - Prints a table summarizing the best alpha values for each method and random state.
 
 
-## Running the Script
-To execute the script, save it as a `.py` file (e.g., `ridge_regression_analysis.py`) and run the following command in your terminal:
-
-```bash
-python ridge_regression_analysis.py
-```
-
 
 ## Output
 
 - **Plot of MSE vs Alpha (Simple Validation)**: Shows how training and validation errors vary with alpha values, identifying the best alpha for each random state.
+
+  ![Validation](images/V.png)
 - **Plot of MSE vs Alpha (Cross-Validation)**: Shows how training and validation errors vary with alpha values using cross-validation, identifying the best alpha for each random state.
+
+  ![CV](images/CV.png)
 - **Table of Best Alphas**: Displays a comparison of the best alpha values obtained from simple validation and cross-validation for each random state.
+
+| Random State | Best Alpha with Validation | Best Alpha with Cross-Validation |
+|--------------|----------------------------|----------------------------------|
+| 0            | 0.01                       | 0.001                            |
+| 10           | 1e-05                      | 0.001                            |
+| 21           | 0.01                       | 0.001                            |
+| 42           | 1                          | 0.001                            |
+| 66           | 1e-05                      | 0.001                            |
+| 109          | 0.01                       | 0.001                            |
+

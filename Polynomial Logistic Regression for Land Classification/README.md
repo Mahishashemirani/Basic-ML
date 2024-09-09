@@ -17,7 +17,8 @@ The dataset `land_type.csv` contains:
 
 ### Data Visualization
 
-- The dataset is visualized to show the distribution of land types based on latitude and longitude. The plot differentiates between agricultural and dry lands.
+- The dataset is visualized to show the distribution of land types based on latitude and longitude. The plot differentiates between agricultural and dry lands.  
+ ![Data](images/Data.png)
 
 ### Model Training and Evaluation
 
@@ -27,35 +28,18 @@ The dataset `land_type.csv` contains:
    - The model is trained and validated on split datasets.
 
 2. **Accuracy Calculation**:
-   - The accuracy of the model on the validation dataset is calculated.
-   - A plot visualizes the predictions versus actual values, highlighting correct and incorrect classifications.
+   - The accuracy of the model on the validation dataset is calculated. An accuracy of **75%** was reached.
+   - A plot visualizes the predictions versus actual values, highlighting correct and incorrect classifications. 
+   ![Predictions](images/predictions.png)
 
 ### Boundary Visualization
 
 - For illustrative purposes, a randomly generated Gaussian dataset is used.
 - Polynomial logistic regression is applied to visualize decision boundaries with different degrees of polynomial features and regularization values.
-- A custom function `fit_and_plot_dt` is used to plot decision boundaries and illustrate the impact of varying polynomial degrees and regularization parameters.
+
+ ![DB](images/DB.png)
 
 
-## Code Summary
-
-1. **Import Libraries**:
-   - Libraries for data manipulation, plotting, and modeling are imported.
-
-2. **Load Data**:
-   - The dataset is loaded and inspected.
-
-3. **Data Preparation**:
-   - Predictors and response variables are defined.
-   - Data is split into training and validation sets.
-
-4. **Model Fitting**:
-   - Logistic regression is fit using polynomial features.
-   - Predictions and accuracy are evaluated.
-
-5. **Visualization**:
-   - Predictions are visualized on a plot with true and predicted land types.
-   - Decision boundaries are visualized for polynomial logistic regression on Gaussian data.
   
 
   

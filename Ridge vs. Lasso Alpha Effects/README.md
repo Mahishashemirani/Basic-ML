@@ -43,14 +43,24 @@ The script uses a dataset named `bacteria_train.csv`.
    - Computes Ridge regression coefficients for each alpha value.
    - Plots the variation of Ridge coefficients as a function of alpha values.
 
+     ![Ridge](images/Ridge.png)
+
 5. **Lasso Regression Analysis**:
    - Iterates over a range of alpha values (from 1e-4 to 1e-1).
    - Computes Lasso regression coefficients for each alpha value.
    - Plots the variation of Lasso coefficients as a function of alpha values.
+     
+     ![Lasso](images/Lasso.png)
 
 6. **Comparison of Ridge and Lasso**:
    - Compares Ridge and Lasso regression by plotting the coefficients for both methods on the same plot.
    - Uses a logarithmic scale to highlight differences in how Ridge and Lasso shrink coefficients.
+     ![Logscale](images/Logscale.png)
+
+  ## Conclusion
+
+Lasso regression serves as an effective feature selection method by enforcing sparsity in the model coefficients. Unlike Ridge regression, which applies a penalty proportional to the square of the coefficients and thus tends to shrink all coefficients towards zero, Lasso regression utilizes an \(L_1\) penalty that can force some coefficients to be exactly zero. This property of Lasso regression makes it particularly useful for identifying and retaining only the most influential features from a dataset. As the regularization parameter (alpha) increases, Lasso regression increasingly sparsifies the coefficients, leading to a model that is not only simpler but also potentially more interpretable. The comparison of Ridge and Lasso coefficients illustrates how Lasso's \(L_1\) penalty contributes to a more compact model by zeroing out less important features, thus aiding in feature selection and reducing model complexity.
+
 
 
 

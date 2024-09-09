@@ -67,5 +67,44 @@ y_pred_lasso = lasso_model.predict(X_test_scaled)
 
 ## Results
 
-- The script generates scatter plots showing how TV advertising budgets relate to sales figures.
-- The first plot shows the relationship for a subset of 7 rows, while the second plot visualizes all data points.
+
+
+---
+
+### 1. Scatter Plot: TV Advertising Budget vs Sales (Full Dataset)
+
+The second figure shows a scatter plot visualizing the relationship between TV advertising budgets and sales for the entire dataset.
+
+![Full Dataset Plot](images/full_dataset_plot.png)
+
+---
+
+### 2. Model Performance Comparison
+
+We trained three models: **Linear Regression**, **Ridge Regression**, and **Lasso Regression** to predict sales based on the advertising budgets for TV, Radio, and Newspaper.
+
+The table below summarizes the **Mean Squared Error (MSE)** and **R-squared (R²)** for each model:
+
+| Model               | MSE     | R-squared (R²) |
+|---------------------|---------|----------------|
+| Linear Regression   | 3.174   | 0.899          |
+| Ridge Regression    | 3.174   | 0.899          |
+| Lasso Regression    | 3.14    | 0.900          |
+
+---
+
+### 4. Visualization: Actual vs Predicted Sales
+
+Below are the scatter plots showing the actual vs predicted sales for each regression model:
+
+
+![Lasso Regression Plot](images/lasso_regression_plot.png)
+
+---
+
+### 5. MSE Comparison of Models
+
+The bar plot below compares the **Mean Squared Error (MSE)** of the three models. A lower MSE indicates a better-performing model.
+
+![MSE Comparison](images/mse_comparison_plot.png)
+

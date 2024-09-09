@@ -57,13 +57,6 @@ pip install numpy pandas matplotlib scikit-learn
 - Plots MSE vs. polynomial degree for cross-validation errors.
 
 
-## Running the Script
-
-To execute the script, save it as a `.py` file (e.g., `polynomial_regression.py`) and run the following command in your terminal:
-
-```bash
-python polynomial_regression.py
-```
 
 ## Results
 

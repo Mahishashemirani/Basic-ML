@@ -81,7 +81,7 @@ The figures shows a scatter plot visualizing the relationship between predictors
 ![Full Dataset Plot](images/scatter_plot_Radio.png)
 
 - **Newspaper Advertisment Budget vs Sales:**  
-![Full Dataset Plot](images/Newspaper.png)
+![Full Dataset Plot](images/scatter_plot_Newspaper.png)
 
 
 ---

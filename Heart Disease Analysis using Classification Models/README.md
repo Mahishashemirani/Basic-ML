@@ -84,7 +84,6 @@ A counterfactual analysis is performed for the **Polynomial Logistic Regression*
 
 ## Conclusion
 
-## Conclusion
 
 This analysis demonstrates the application of three different models to predict heart disease based on the `Heart.csv` dataset:
 

@@ -46,7 +46,7 @@ The `Heart.csv` dataset includes patient data with key columns such as:
 
 ## Results
 
-### 1. Predictions and Probabilities
+### 1. Predictions and Probabilities in Age Analysis
 
 #### k-NN:
 - Pure classifications and probability estimates are generated for both training and validation sets.

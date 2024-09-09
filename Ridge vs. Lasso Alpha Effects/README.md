@@ -52,18 +52,6 @@ The script uses a dataset named `bacteria_train.csv`.
    - Compares Ridge and Lasso regression by plotting the coefficients for both methods on the same plot.
    - Uses a logarithmic scale to highlight differences in how Ridge and Lasso shrink coefficients.
 
-## Running the Script
 
-To execute the script, save it as a `.py` file (e.g., `regression_analysis.py`) and run the following command in terminal:
-
-```bash
-python regression_analysis.py
-```
-
-## Output
-
-- **Ridge Regression Plot**: Shows the variation of Ridge coefficients for different polynomial degrees as a function of alpha values.
-- **Lasso Regression Plot**: Shows the variation of Lasso coefficients for different polynomial degrees as a function of alpha values.
-- **Comparison Plot**: Highlights the differences between Ridge and Lasso regression by plotting the coefficients on a logarithmic scale.
 
 

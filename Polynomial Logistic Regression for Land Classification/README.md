@@ -17,7 +17,8 @@ The dataset `land_type.csv` contains:
 
 ### Data Visualization
 
-- The dataset is visualized to show the distribution of land types based on latitude and longitude. The plot differentiates between agricultural and dry lands.  
+- The dataset is visualized to show the distribution of land types based on latitude and longitude. The plot differentiates between agricultural and dry lands.
+
  ![Data](images/Data.png)
 
 ### Model Training and Evaluation
@@ -29,7 +30,8 @@ The dataset `land_type.csv` contains:
 
 2. **Accuracy Calculation**:
    - The accuracy of the model on the validation dataset is calculated. An accuracy of **75%** was reached.
-   - A plot visualizes the predictions versus actual values, highlighting correct and incorrect classifications. 
+   - A plot visualizes the predictions versus actual values, highlighting correct and incorrect classifications.
+   
    ![Predictions](images/predictions.png)
 
 ### Boundary Visualization

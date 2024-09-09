@@ -19,6 +19,8 @@ pip install pandas matplotlib seaborn scikit-learn
 
 ## data
 - **TV**: Budget allocated to TV advertising
+- **Radio**: Budget allocated to radio advertising
+- **Newspaper**: Budget allocated to newspaper advertising
 - **Sales**: The sales generated
 
   ## Code Overview

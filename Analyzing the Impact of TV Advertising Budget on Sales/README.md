@@ -77,6 +77,12 @@ The figures shows a scatter plot visualizing the relationship between predictors
 - **TV Advertisment Budget vs Sales:**  
 ![Full Dataset Plot](images/scatter_plot_TV.png)
 
+- **Radio Advertisment Budget vs Sales:**  
+![Full Dataset Plot](images/scatter_plot_Radio.png)
+
+- **Newspaper Advertisment Budget vs Sales:**  
+![Full Dataset Plot](images/Newspaper.png)
+
 
 ---
 
@@ -94,18 +100,14 @@ The table below summarizes the **Mean Squared Error (MSE)** and **R-squared (R²
 
 ---
 
-### 4. Visualization: Actual vs Predicted Sales
+### 3. Visualization: Actual vs Predicted Sales
 
 Below are the scatter plots showing the actual vs predicted sales for each regression model:
 
 
-![Lasso Regression Plot](images/lasso_regression_plot.png)
+![Lasso Regression Plot](images/Models_comparison.png)
 
 ---
 
-### 5. MSE Comparison of Models
 
-The bar plot below compares the **Mean Squared Error (MSE)** of the three models. A lower MSE indicates a better-performing model.
-
-![MSE Comparison](images/mse_comparison_plot.png)
 

@@ -1,6 +1,6 @@
-# TV Advertising Budget vs Sales Analysis
+# Advertising Budget vs Sales Analysis
 
-This repository contains code that analyzes the relationship between TV advertising budgets and sales using a dataset from the file `Advertising.csv`. The dataset is read using the `pandas` library, and the relationship is visualized with a scatter plot using `matplotlib`.
+This repository contains code that analyzes the relationship between advertising budgets (TV, Radio, Newspaper) and sales using a dataset from the file `Advertising.csv`. The analysis includes running linear regression, Ridge regression, and Lasso regression to compare how each model performs in predicting sales based on the budget allocated to each channel.
 
 ## Requirements
 
@@ -8,11 +8,13 @@ To run this code, you need the following Python libraries:
 
 - `pandas`
 - `matplotlib`
+- `seaborn`
+- `scikit-learn`
 
 You can install these libraries using pip:
 
 ```bash
-pip install pandas matplotlib
+pip install pandas matplotlib seaborn scikit-learn
 ```
 
 ## data

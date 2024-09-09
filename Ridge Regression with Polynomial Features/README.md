@@ -72,7 +72,9 @@ The script uses a dataset named `polynomial50.csv`. The dataset should contain:
 
 
 
-## Output
-- **Plot of Predictor vs Response**: Visualizes the observed values and the true function.
+## Conclusion
+
+Adding a regularization coefficient to a degree 50 polynomial regression model significantly enhances its utility by mitigating overfitting. Without regularization, such a high-degree model can fit the training data extremely well but may perform poorly on unseen data due to its high variance and sensitivity to noise. By incorporating regularization, we impose a penalty on large coefficients, thereby reducing the model’s complexity and preventing it from fitting the noise in the training data. This helps in achieving a more generalized model that performs better on validation and test sets, ensuring that the model captures the underlying patterns rather than memorizing the training data.
+
 
 

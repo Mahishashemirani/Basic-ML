@@ -23,7 +23,7 @@ The dataset `land_type.csv` contains:
 
 1. **Logistic Regression**:
    - A logistic regression model is trained using polynomial features of degree 10.
-   - The regularization parameter `C` is set to 10^{-5}.
+   - The regularization parameter `C` is set to $10^{-5}$.
    - The model is trained and validated on split datasets.
 
 2. **Accuracy Calculation**:

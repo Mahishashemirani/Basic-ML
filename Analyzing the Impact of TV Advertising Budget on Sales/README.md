@@ -54,6 +54,16 @@ from sklearn.linear_model import Ridge
 ridge_model = Ridge(alpha=best_ridge_alpha)
 ridge_model.fit(X_train_scaled, y_train)
 ```
+### 4. Model Comparison
+
+We compare the performance of **Linear Regression**, **Ridge Regression**, and **Lasso Regression** using **Mean Squared Error (MSE)** and **R-squared (R²)** values. The actual vs predicted sales for each model are visualized using scatter plots.
+
+```python
+# Predictions for comparison
+y_pred_linear = linear_model.predict(X_test_scaled)
+y_pred_ridge = ridge_model.predict(X_test_scaled)
+y_pred_lasso = lasso_model.predict(X_test_scaled)
+```
 
 ## Results
 

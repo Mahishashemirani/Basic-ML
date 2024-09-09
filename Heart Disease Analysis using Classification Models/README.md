@@ -52,39 +52,54 @@ The `Heart.csv` dataset includes patient data with key columns such as:
 - Pure classifications and probability estimates are generated for both training and validation sets.
 
 #### Logistic Regression:
-- Coefficient estimates for the logistic regression model are obtained, and the estimated probability of having heart disease is computed for a 60-year-old.
-
+- Coefficient estimates for the logistic regression model are obtained, and the estimated probability of having heart disease is computed for a 60-year-old.  
+![Probabilities](images/probs.png)
 ### 2. Accuracy
 
-The accuracy of both the **k-NN** and **Logistic Regression** models is computed and compared on both the training and validation sets. The **Polynomial Logistic Regression** model is also evaluated for accuracy on the training set.
+The accuracy of both the **k-NN** and **Logistic Regression** models is computed and compared on both the training and validation sets. The **Polynomial Logistic Regression** model is also evaluated for accuracy on the training set.  
+
+| Model                     | Training Accuracy | Validation Accuracy |
+|---------------------------|-------------------|---------------------|
+| k-Nearest Neighbors (k-NN) | 65%               | 59%                 |
+| Logistic Regression        | 63%               | 60%                 |
+| Polynomial Logistic Reg.   | 67%               | 65%                 |
 
 ### 3. Decision Boundary Visualization (Polynomial Logistic Regression)
 
 The decision boundary of the **Polynomial Logistic Regression** model is visualized using a mesh grid. The plot shows how the model classifies data points based on the polynomial features of **Chol** and **MaxHR**.
-
+![DB](images/p_logistic_DB.png)
 ### 4. Counterfactual and Sensitivity Analysis
 
 A counterfactual analysis is performed for the **Polynomial Logistic Regression** model:
 - Sensitivity to changes in **Chol** and **MaxHR** is analyzed by modifying each predictor by ±0.5 standard deviations.
 - The model is found to be more sensitive to changes in **MaxHR** compared to **Chol**.
 
-## Visualization
 
-### 1. k-NN and Logistic Regression Predictions
-Plots are generated to visualize the observed data along with model predictions for both **k-NN** and **Logistic Regression**. The different types of predictions (classifications and probabilities) are shown.
+| Predictor | Change | Number of Prediction Changes |
+|-----------|--------|------------------------------|
+| **Chol**  | +0.5 SD | 5 changes                    |
+| **Chol**  | -0.5 SD | 5 changes                    |
+| **MaxHR** | +0.5 SD | 43 changes                    |
+| **MaxHR** | -0.5 SD | 53 changes                    |
 
-### 2. Decision Boundary for Polynomial Logistic Regression
-A decision boundary plot is created to visualize the polynomial logistic regression model's predictions. The boundary distinguishes between the predicted classes based on **Chol** and **MaxHR**.
-
-### 3. Sensitivity Analysis Plot
-A bar plot visualizes the number of changes in predictions caused by modifying **Chol** and **MaxHR**.
+## Conclusion
 
 ## Conclusion
 
 This analysis demonstrates the application of three different models to predict heart disease based on the `Heart.csv` dataset:
-- **k-NN** uses a non-parametric method to classify based on neighborhood voting.
-- **Logistic Regression** estimates the odds and probability of heart disease based on linear predictors.
-- **Polynomial Logistic Regression** extends logistic regression with polynomial features, capturing non-linear relationships between **Chol** and **MaxHR**.
 
-Each model provides different insights into how heart disease is predicted, with varying levels of complexity and accuracy.
+- **k-Nearest Neighbors (k-NN)**: 
+  - Achieved better training accuracy compared to logistic regression.
+  - However, it performed worse in terms of validation accuracy, indicating potential overfitting on the training data.
+
+- **Logistic Regression**: 
+  - Provided a good balance between training and validation accuracy.
+  - It serves as a reliable model for heart disease prediction with reasonable performance on both training and validation sets.
+
+- **Polynomial Logistic Regression**:
+  - Outperformed the other models in terms of training accuracy, showcasing its capability to capture complex relationships in the data.
+  - Despite this, its validation accuracy was around 65%, highlighting the intricate and multifactorial nature of heart disease.
+
+The polynomial logistic regression model, while providing the best performance in training, shows that predicting heart disease remains challenging due to the complex interactions between features like **Chol** and **MaxHR**.
+
 

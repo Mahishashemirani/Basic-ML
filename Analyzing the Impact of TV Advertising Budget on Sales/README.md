@@ -71,10 +71,10 @@ y_pred_lasso = lasso_model.predict(X_test_scaled)
 
 ---
 
-### 1. Scatter Plot: TV Advertising Budget vs Sales (Full Dataset)
+### 1. Scatter Plot: Predictors vs Sales 
 
 The figures shows a scatter plot visualizing the relationship between predictors and sales for the entire dataset.
-- **TV Advertisment Budget vs Sales**
+- **TV Advertisment Budget vs Sales:**  
 ![Full Dataset Plot](images/scatter_plot_TV.png)
 
 
